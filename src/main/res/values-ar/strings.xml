@@ -1,0 +1,398 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">سوق السويداء</string>
+
+    <string name="coming_son">قريبا</string>
+    <string name="noNetworkFound">أنت غير متصل بالإنترنت. يرجى الاتصال وإعادة المحاولة.</string>
+    <string name="msg_NO_INTERNET_RESPOND">يرجى توصيل اتصال الإنترنت الخاص بك</string>
+    <string name="msg_please_wait">ارجوك انتظر …</string>
+    <string name="msg_server_error">حدث خطأ ما. أعد المحاولة من فضلك</string>
+    <string name="msg_press_back_twice">انقر نقرا مزدوجا لدعم</string>
+
+    <string name="dialog_yes">نعم</string>
+    <string name="dialog_no">لا</string>
+    <string name="dialog_ok">حسنا</string>
+
+    <string name="str_or">أو</string>
+    <string name="str_submit">ارسال</string>
+    <string name="str_delted">محذوف</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="str_email">البريد الإلكتروني</string>
+    <string name="str_fname">الأسم الأول</string>
+    <string name="str_lname">اسم العائلة</string>
+    <string name="str_email_mobil">البريد الألكتروني أو رقم الموبايل</string>
+    <string name="str_pwd">كلمة السر</string>
+    <string name="str_conf_pwd">تأكيد كلمة السر</string>
+    <string name="str_old_pwd">كلمة المرور القديمة</string>
+    <string name="str_new_pwd">كلمة السر الجديدة</string>
+    <string name="str_login">تسجيل الدخول</string>
+    <string name="str_buy">شراء</string>
+    <string name="str_login1">تسجيل الدخول</string>
+    <string name="str_mobil">Phone number</string>
+    <string name="str_forgot">نسيت كلمة السر</string>
+    <string name="str_sign_up_here">سجل هنا</string>
+    <string name="str_sign_up">تسجيل</string>
+    <string name="str_reset">الرجاء ادخال رقم الموبايل لأعادة تعيين كلمة السر</string>
+    <string name="str_are_u_sure">هل أنت متأكد؟</string>
+    <string name="str_deactive_msg">هل تريد إلغاء تنشيط الحساب؟</string>
+    <string name="str_del_ad">هل تريد أن تحذف؟</string>
+    <string name="str_logout">هل ترغب بالخروج ؟</string>
+    <string name="str_remove">هل تريد إزالة؟</string>
+    <string name="str_cler_msg">هل تريد مسح جميع البيانات؟</string>
+    <string name="str_update">تحديث</string>
+    <string name="str_location">موقعك</string>
+    <string name="str_adrs">عنوان</string>
+    <string name="str_web">موقع الكتروني</string>
+    <string name="str_fb">حساب الفيسبوك</string>
+    <string name="str_gmail">حساب الجوجل</string>
+    <string name="str_insta">حساب الانستجرام</string>
+    <string name="str_verify">تأكيد</string>
+    <string name="str_find_loc">بحث</string>
+    <string name="str_confirm_loc">تاكيد</string>
+
+    <string name="err_email_mobil">الرجاء إدخال بريدك الإلكتروني أو رقم هاتفك المحمول</string>
+    <string name="err_email">الرجاء إدخال عنوان البريد الإلكتروني الخاص بك</string>
+    <string name="err_valid_email">الرجاء إدخال عنوان بريدك الإلكتروني الصحيح</string>
+    <string name="err_pwd">من فضلك أدخل رقمك السري</string>
+    <string name="err_pwd1"> يرجى ادخال كلمة سر مكونة من 6 الى 20 حروف او ارقام!</string>
+    <string name="err_conf_pwd">الرجاء إدخال كلمة المرور للتأكيد</string>
+    <string name="err_conf_pwd1">يرجى ادخال كلمة سر مكونة من 6 الى 20 حروف او ارقام!</string>
+    <string name="err_invalid">البريد الإلكتروني أو كلمة السر خاطئة</string>
+    <string name="err_mismatch">كلمة السر الجديدة وتأكيد كلمة السر غير متطابقتين</string>
+    <string name="err_camera">يرجى اختيار صورتك</string>
+    <string name="err_name">يرجى ادخال الاسم</string>
+    <string name="err_fname">يرجى ادخال الاسم الاول</string>
+    <string name="err_lname">الرجاء إدخال اسم العائلة</string>
+    <string name="err_mobil">يرجى ادخال رقم الهاتف</string>
+    <string name="err_old_pwd">الرجاء إدخال كلمة المرور القديمة</string>
+    <string name="err_new_pwd">الرجاء إدخال كلمة المرور الجديدة</string>
+    <string name="err_invalid_otp">الرجاء إدخال رمز otp صالح</string>
+    <string name="err_cancel">عملية فاشلة، يرجى المحاولة مره أخرى.</string>
+    <string name="err_payment">فشل الدفع الخاص بك ، يرجى المحاولة مرة أخرى بعد وقت ما.</string>
+    <string name="err_cate">يرجى اختيار الفئة</string>
+    <string name="err_image">يرجى اختيار صورة أو فيديو</string>
+    <string name="err_titl">يرجى اختيار العنوان</string>
+    <string name="err_titl1">العنوان يتطلب 3 أحرف على الأقل!</string>
+    <string name="err_price">يرجى اختيار السعر</string>
+    <string name="err_desc">يرجى اختيار الوصف</string>
+    <string name="err_loc">يرجى اختيار الموقع</string>
+    <string name="err_youtub">الرجاء إدخال رابط url صالح</string>
+    <string name="err_enter">يرجى تعبئة جميع الحقول</string>
+    <string name="err_select">يرجى اختيار</string>
+    <string name="err_ad_owner">أنت مالك هذا الإعلان.</string>
+    <string name="err_no_usr">أنت غير قادر على الدردشة مع هذا المستخدم.</string>
+    <string name="err_web">يرجى ادخال موقع الكتروني صحيح.</string>
+    <string name="err_fb">يرجى ادخال رابط فيسبوك صحيح.</string>
+    <string name="err_google">يرجى ادخال رابط جوجل صحيح.</string>
+    <string name="err_insta">يرجى ادخال حساب انستجرام صحيح.</string>
+    <string name="err_finger">Your Touch ID not registered with our system.</string>
+    <string name="err_del_ad">الاعلان محذوف.</string>
+    <string name="err_expir_ad">الإعلان منتهية الصلاحية.</string>
+    <string name="err_govern">يرجى اختيار المحافظة.</string>
+    <string name="err_city">يرجى اختيار المدينة.</string>
+    <string name="err_block">يرجى اختيار القطعة.</string>
+
+    <string name="want_added">تم اضافة الاعلان بنجاح.</string>
+    <string name="want_remove">الإعلانات إزالتها في قائمة تريد.</string>
+    <string name="paym_success">تم الدفع بنجاح.</string>
+    <string name="ads_rem_success">تم حذف الاعلان بنجاح.</string>
+    <string name="ads_update_success">تم تحديث الإعلان بنجاح.</string>
+    <string name="profile_update_success">تم تحديث الملف الشخصي بنجاح.</string>
+    <string name="pwd_success">الرقم السري تغير بنجاح.</string>
+    <string name="pwd_fail">كلمة المرور القديمة غير متطابقة.</string>
+    <string name="done_forgot"> تم ارسال بريد الكتروني لحسابك المسجل لدينا يحتوي على رابط لتعيين كلمة السر.</string>
+    <string name="otp_verify"> الرجاء كتابة رمز التحقق الذي تم إرساله إلى</string>
+    <string name="subscr_credit">ليس لديك رصيد إعلانات ، هل ترغب في شراء خطة؟</string>
+
+    <string name="menu_title_1">الصفحة الرئيسية</string>
+    <string name="menu_title_2">الدعم الفني</string>
+    <string name="menu_title_3">الأعدادات</string>
+    <string name="menu_title_4">الشات</string>
+    <string name="menu_title_5">مناسباتي</string>
+    <string name="menu_title_6">الملف الشخصي</string>
+    <string name="menu_title_7">أعلان جديد</string>
+    <string name="menu_title_8">اخر مشاهداتي</string>
+    <string name="menu_title_9">المفضلة</string>
+    <string name="menu_title_10">قائمة امنياتي</string>
+    <string name="menu_title_11">الاشتراكات</string>
+    <string name="menu_title_12">العمليات</string>
+    <string name="menu_title_13">أعلن معنا</string>
+    <string name="menu_title_14">التنبيهات</string>
+    <string name="menu_title_15">تسجيل الخروج</string>
+    <string name="menu_title_16">معلومات عنا</string>
+    <string name="menu_title_17">الشروط و الأحكام</string>
+    <string name="menu_title_18">سياسة الخصوصية</string>
+
+    <string name="tab_title_1">جميع الفئات</string>
+    <string name="tab_title_2">اخر الإعلانات</string>
+    <string name="tab_title_3">الخريطة</string>
+
+    <string name="str_show">عرض</string>
+    <string name="locationdenied">يرجى تشغيل GPS لمعرفة المسافة</string>
+    <string name="str_km_away">كم  تبعد من مكانك</string>
+
+    <!-- No record found -->
+    <string name="no_record_found">لا يوجد سجلات.</string>
+    <string name="no_rcnt_post">لايتوفر اعلانات حالياً.</string>
+    <string name="no_rcnt_vw">لايوجد اعلانات.</string>
+    <string name="no_post">لايتوفر اعلانات حالياً.</string>
+    <string name="no_category">لا توجد فئات في اللحظات.</string>
+    <string name="no_fav">لا يوجد اعلانات مفضلة بعد</string>
+    <string name="no_want">لايوجد اعلانات.</string>
+    <string name="no_my_ads">ليس لديك إعلانات.</string>
+    <string name="no_chat">لايوجد اي محادثات سابقة</string>
+    <string name="no_search">لايوجد اعلانات.</string>
+    <string name="no_msg">لا توجد رسالة.</string>
+
+    <string name="str_adver_ci">معلومات الاتصال</string>
+    <string name="str_share">مشاركة</string>
+    <string name="str_acunt_mgnt">إدارة الحساب</string>
+    <string name="str_chng_pwd">تغيير كلمة السر</string>
+    <string name="str_share_phn">مشاركة رقم الموبايل</string>
+    <string name="str_deactive">تعطيل الحساب</string>
+    <string name="str_deactive1">تم إلغاء تنشيط الحساب</string>
+    <string name="str_deactive2">تم إلغاء تفعيل حسابك بواسطتك. هل تريد إعادة تنشيطه مرة أخرى؟</string>
+    <string name="str_deactive3">تم ارسال البريد الالكتروني بنجاح.</string>
+    <string name="str_deactive4">تم إلغاء تنشيط حسابك من قبل المشرف.</string>
+    <string name="str_lang_e">English</string>
+    <string name="str_lang_a">عربى</string>
+
+    <string name="str_category"> اختر القسم المناسب للإعلان</string>
+    <string name="str_rental_prod">Best rental product</string>
+    <string name="str_title">العنوان</string>
+    <string name="str_price">السعر</string>
+    <string name="str_desc"> التفاصيل او  الوصف المناسب </string>
+    <string name="str_youtube">رابط اليوتيوب</string>
+    <string name="str_govern"> المدينة اوالمنطقة</string>
+    <string name="str_city">القرية  أو  الحي</string>
+    <string name="str_block">القطعة</string>
+    <string name="str_post">نشر</string>
+    <string name="str_upload_iv">تحميل صورة أو فيديو</string>
+    <string name="str_call">اتصل</string>
+    <string name="str_colon">:</string>
+    <string name="str_model">الطراز</string>
+    <string name="str_expir_dt">تاريخ الانتهاء</string>
+    <string name="str_ad_post">%s تم نشر الاعلان في</string>
+    <string name="str_avail">متوفر</string>
+    <string name="str_unavail">غير متوفر</string>
+    <string name="str_no_of_post">اعلانات متبقية</string>
+    <string name="str_consume">استهلكت</string>
+    <string name="str_kwd">SYP</string>
+    <string name="str_purch_on">تاريخ الشراء</string>
+    <string name="str_expire_on">تاريخ الانتهاء</string>
+    <string name="str_expire">منتهية الصلاحية</string>
+    <string name="str_validity">الصلاحية</string>
+    <string name="str_unlimit"> غير محدود</string>
+    <string name="str_ad_activ">تم نشر الأعلان بنجاح</string>
+    <string name="str_ad_inactiv">تم اخفاء الاعلان بنجاح</string>
+    <string name="str_ad_id">رقم الأعلان : </string>
+    <string name="str_ad_id1">%s</string>
+    <string name="str_ad_edit">تعديل الأعلان</string>
+    <string name="str_pay_meth">يرجى اختيار طريقة الدفع</string>
+    <string name="str_cler">اعادة تعيين</string>
+    <string name="str_nw_msg">اكتب تعليقك هنا</string>
+    <string name="str_recomode">الإعلانات الموصى بها لك</string>
+    <string name="str_trans_id">معرف المعاملة: </string>
+    <string name="str_days">أيام</string>
+    <string name="str_street">شارع</string>
+    <string name="str_jada">جاده</string>
+    <string name="str_filter1">اعلانات بالقرب منك (كم)</string>
+    <string name="str_filter2">السعر</string>
+    <string name="str_filter3">من</string>
+    <string name="str_filter4">الى</string>
+    <string name="str_filter5">تطبيق الفلتر</string>
+    <string name="str_filter6">Auto</string>
+    <string name="str_filter7">50</string>
+    <string name="str_filter8">100</string>
+    <string name="str_filter9">150</string>
+    <string name="str_filter10">200</string>
+    <string name="str_filter11">250</string>
+
+    <string name="str_sub1">الاسم</string>
+    <string name="str_sub2">الصلاحية</string>
+    <string name="str_sub3">عدد الاعلانات</string>
+    <string name="str_sub4">السعر</string>
+    <string name="str_sub5">البريد المتبقي</string>
+
+    <string name="subject">Download Amazing app from play store : </string>
+    <string name="google_url">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDG7XVHHZIQLdDAdaK1wpozztVq6Tmbqns
+    </string>
+
+    <string name="placeid" templateMergeStrategy="preserve" translatable="false">AIzaSyCWRRao8iXvdbUH8QPOoRGXIfzOeIHwJHw</string>
+    <string name="facebook_app_id">392989274849200</string>
+    <string name="fb_login_protocol_scheme">fb392989274849200</string>
+
+    <string name="twitter_key">XGemNQs1t8DrGdBpZMCb9O4lh</string>
+    <string name="twitter_secret_key">uSklzk8jfx5TBrIIxzqJ3Z5gRPqnfEtSLoUiCQ9KdXco9I1BYP</string>
+
+    <string name="client_id">974bd316bfa341ae8ffd37763372e18e</string>
+    <string name="redirect_url">https://ajarblog.algotrick.com/instagramlogin/get_code</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+
+    <string name="ar1">اخفاء</string>
+    <string name="ar2">نشر</string>
+
+    <string name="location1">Location permission is not granted!</string>
+    <string name="location2">Location not Detected</string>
+    <string name="location3">Set Location</string>
+    <string name="gps_disbale">GPS is disable!</string>
+    <string name="gps_enable">GPS is Enable!</string>
+    <string name="open_location_settings">Setting</string>
+    <string name="cancel">إلغاء</string>
+    <string name="close">أغلق</string>
+    <string name="str_resend">إعادة إرسال</string>
+    <string name="str_chng">تعديل</string>
+    <string name="str_publish">نشر</string>
+    <string name="str_upload">تحميل خيار الصور</string>
+    <string name="str_video">فيديو</string>
+    <string name="str_image">صورة</string>
+    <string name="str_gallery">صالة عرض</string>
+    <string name="str_camera">الة تصوير</string>
+    <string name="str_vid_sel">اختيار الفيديو من قبل</string>
+    <string name="str_album">ألبومات</string>
+
+    <string name="txt_coupon_price">%.2f</string>
+
+    <!-- Toolbar Title Name -->
+    <string name="tit_login">تسجيل الدخول</string>
+    <string name="tit_signup">تسجيل</string>
+    <string name="tit_code_verify">تأكيد كلمة السر لمرة واحدة</string>
+    <string name="tit_home">الصفحة الرئيسية</string>
+    <string name="tit_forgt">نسيت كلمة السر</string>
+    <string name="tit_chat">الشات</string>
+    <string name="tit_profile">الملف الشخصي</string>
+    <string name="tit_edit_profile">تعديل الملف الشخصي</string>
+    <string name="tit_complet_profile">الملف الشخصي الكامل</string>
+    <string name="tit_post_ads">أعلان جديد</string>
+    <string name="tit_edit_ads">تعديل الاعلان</string>
+    <string name="tit_ads">الحزمة الفعالة</string>
+    <string name="tit_suport">الدعم الفني</string>
+    <string name="tit_setting">الأعدادات</string>
+    <string name="tit_chos_lang">اختر اللغة</string>
+    <string name="tit_filtr">فلتر البحث</string>
+    <string name="tit_cate">الفئة</string>
+    <string name="tit_chng_pwd">غير كلمة السر</string>
+    <string name="tit_post_detail"> تفاصيل الاعلان</string>
+    <string name="tit_rcnt_vw">اخر مشاهداتي</string>
+    <string name="tit_my_fav">مفضلتي</string>
+    <string name="tit_my_want">قائمة امنياتي</string>
+    <string name="tit_subs">اشتراكات</string>
+    <string name="tit_trans">العمليات</string>
+    <string name="tit_search">بحث</string>
+    <string name="tit_mak_pay">شراء حزمه</string>
+    <string name="tit_pay">دفع</string>
+    <string name="tit_nop">عدد الاعلانات</string>
+
+    <string name="upload">رفع ملف</string>
+    <string name="video_length_validation">Video should be of minimum 3 seconds</string>
+    <string name="place_error">Please select location inside syria.</string>
+    <string name="fileter_error">Please select distance.</string>
+    <string name="post_add_success1">تم نشر الاعلان بنجاح</string>
+
+    <string name="title_choose_image_provider">Choose</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_camera">Camera</string>
+
+    <string name="image_picker_provider_authority_suffix">.provider</string>
+
+    <string name="message_gallery_permission_denied">Read External Storage permissions is needed to select Image. Please turn on requested permissions from Settings > Permissions.</string>
+    <string name="message_camera_permission_denied">Camera and External Storage permissions are needed to capture image. Turning off any permission won\'t allow application run smoothly. Please turn on all requested permissions from Settings > Permissions.</string>
+    <string name="permission_gallery_denied">
+        <![CDATA[Storage permission is needed to pick gallery image. Please allow storage permission from Settings > Permissions.]]></string>
+    <string name="permission_camera_extended_denied">
+        <![CDATA[Camera and Storage permissions are needed to take a picture. Please allow both the requested permissions from Settings > Permissions.]]></string>
+    <string name="permission_camera_denied">
+        <![CDATA[Storage permission is needed to take a picture. Please allow storage permission from Settings > Permissions.]]></string>
+
+    <string name="error_failed_to_create_camera_image_file">Failed to create Camera image file</string>
+    <string name="error_failed_pick_gallery_image">Failed to pick Gallery image</string>
+    <string name="error_failed_to_crop_image">Failed to crop image</string>
+    <string name="error_failed_to_compress_image">Failed to compress image</string>
+    <string name="error_task_cancelled">Task Cancelled</string>
+    <string name="file_provider_authorities">com.swiedamarket.imagepicker.provider.CustomFileProvider</string>
+
+
+    <string name="str_sign_up_here1">ليس لديك  حساب ، سجل الأن</string>
+    <string name="skip">رجوع</string>
+
+    <string name="menu_home_title_1">الرئيسية</string>
+    <string name="menu_home_title_2">المفضلة</string>
+
+    <string name="menu_home_title_3">نشر إعلان</string>
+    <string name="menu_home_title_4">حسابي </string>
+    <string name="menu_home_title_5">المزيد</string>
+    <string name="menu_home_title_6">الرئيسية</string>
+    <string name="menu_home_title_7">آخر مشاهداتي</string>
+    <string name="menu_home_title_8">مناسبات اليوم</string>
+    <string name="menu_home_title_9">احدث الاعلانات </string>
+    <string name="menu_home_title_10">العروض</string>
+
+    <string name="menu_more_title_1">مناسباتي</string>
+    <string name="menu_more_title_2">اعلن معنا</string>
+    <string name="menu_more_title_3">التنبيهات</string>
+    <string name="menu_more_title_4">معلومات عنا</string>
+    <string name="menu_more_title_5">الشروط و الأحكام</string>
+    <string name="menu_more_title_6">سياسة الخصوصية</string>
+    <string name="menu_more_title_7">الدعم الفني</string>
+    <string name="menu_more_title_8">الاعدادات</string>
+    <string name="menu_more_title_9">تسجيل الخروج</string>
+
+    <string name="str_whatsapp">واتس أب</string>
+    <string name="str_sms">SMS</string>
+
+    <string name="str_startdate"> من</string>
+    <string name="str_enddate"> الى</string>
+
+    <string name="err_whatsapp">Whatsapp is not found....</string>
+    <string name="str_comment">التعليقات  </string>
+    <string name="err_comment">يرجى كتابة تعليقك..</string>
+    <string name="err_forgotpassword" tools:ignore="ExtraTranslation">Your mobile number is not registered with our system, please enter valid mobile number</string>
+    <string name="err_startdate">يرجى تحديد تاريخ ووقت البداية</string>
+    <string name="err_endate">يرجى تحديد تاريخ ووقت النهاية</string>
+
+    <string name="str_favorite_msg">Do you want to favourite event ?</string>
+    <string name="str_un_favorite_msg">Do you want to unfavourite event ?</string>
+    <string name="str_del_comment_msg">Do you want to delete comment ?</string>
+    <string name="err_date_compare">Please select  end date after start date</string>
+
+    <string name="str_region">المنطقة</string>
+    <string name="str_village">الحي أو القرية</string>
+    <string name="tit_detail">التفاصيل</string>
+    <string name="str_select_lang">Select Language</string>
+
+    <string name="tit_offer_detail">تفاصيل العرض</string>
+
+    <string name="media_note">اضافة  الصور لإعلانك  تساعدك على البيع يمكنك اضافة  صور  وفيديو  لإعلانك</string>
+
+    <string name="menu_title_19">حزمة فعالة</string>
+    <string name="menu_title_20">الحزم المتاحة</string>
+
+    <string name="str_mobile_label">ادخل رقم  فعال واتس اب + اتصال بدون اضافة   <font fgcolor='#ec0834'>صفر قبل الرقم</font></string>
+    <string name="hi">Hi</string>
+
+    <string name="menu_title_5_1">اعلاناتي </string>
+
+    <string name="L">L</string>
+    <string name="R">R</string>
+    <string name="tit_del_ads">Delete AD</string>
+    <string name="eventdelete">Your ad is deleted....</string>
+    <string name="label_rememberpassword">Remember Password</string>
+    <string name="passowrd">Password</string>
+    <string name="facebbok_label">FAcebook</string>
+    <string name="google_label">Google</string>
+    <string name="loginasguest_label"><u>Continue as Guest</u></string>
+
+    <string name="str_aggree_term">I agree terms and condition</string>
+    <string name="login_back">Already have an account?<font fgcolor='#8B67AF'>Login</font></string>
+    <string name="err_accept_term">Please accept term and condition.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

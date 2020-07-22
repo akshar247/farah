@@ -1,0 +1,398 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Farah</string>
+
+    <string name="coming_son">Coming Soon</string>
+    <string name="noNetworkFound">You\'re not connected to the Internet. Please connect and retry. </string>
+    <string name="msg_NO_INTERNET_RESPOND">Please connect your internet connection</string>
+    <string name="msg_please_wait">Please wait …</string>
+    <string name="msg_server_error">Something went wrong please try again</string>
+    <string name="msg_press_back_twice">Double tab to back</string>
+
+    <string name="dialog_yes">YES</string>
+    <string name="dialog_no">NO</string>
+    <string name="dialog_ok">OK</string>
+
+    <string name="str_or">OR</string>
+    <string name="str_submit">Submit</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="str_email">Email</string>
+    <string name="str_fname">First Name</string>
+    <string name="str_lname">Last Name</string>
+    <string name="str_email_mobil">Email or mobile number</string>
+    <string name="str_pwd">Password</string>
+    <string name="str_conf_pwd">Confirm Password</string>
+    <string name="str_old_pwd">Old Password</string>
+    <string name="str_new_pwd">New Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_buy">Purchase</string>
+    <string name="str_login1">Log In</string>
+    <string name="str_mobil">Phone number</string>
+    <string name="str_forgot">Forgot Password ?</string>
+    <string name="str_sign_up_here">Sign up here</string>
+    <string name="str_sign_up_here1">Don\'t have account? <font fgcolor='#8B67AF'>Sign Up</font></string>
+    <string name="str_sign_up">Register</string>
+    <string name="str_reset">Please enter your registered mobile number to reset your password</string>
+    <string name="str_are_u_sure">Are you sure ?</string>
+    <string name="str_deactive_msg">Do you want to deactive account ?</string>
+    <string name="str_del_ad">Do you want to delete ?</string>
+    <string name="str_logout">Do you want to logout ?</string>
+    <string name="str_remove">Do you want to remove ?</string>
+    <string name="str_cler_msg">Do you want to clear all data ?</string>
+    <string name="str_favorite_msg">Do you want to favourite ads ?</string>
+    <string name="str_un_favorite_msg">Do you want to unfavourite ads ?</string>
+    <string name="str_update">Update</string>
+    <string name="str_location">Location</string>
+    <string name="str_adrs">Addrerss</string>
+    <string name="str_web">Website</string>
+    <string name="str_fb">Facebook account</string>
+    <string name="str_gmail">Gmail account</string>
+    <string name="str_insta">Instagram account</string>
+    <string name="str_verify">Verify</string>
+    <string name="str_find_loc">Find Location</string>
+    <string name="str_confirm_loc">Confirm Location</string>
+
+    <string name="err_email_mobil">Please enter your email or mobile number</string>
+    <string name="err_email">Please enter your email address</string>
+    <string name="err_valid_email">Please enter valid your email address</string>
+    <string name="err_pwd">Please enter your password</string>
+    <string name="err_pwd1"> Please enter password between 6 to 20 characters !</string>
+    <string name="err_conf_pwd">Please enter your confirm password</string>
+    <string name="err_conf_pwd1">Please enter confirm password between 6 to 20 characters !</string>
+    <string name="err_invalid">Invalid email or password</string>
+    <string name="err_mismatch">Password and confirm password doesn\'t match</string>
+    <string name="err_camera">Please select your image</string>
+    <string name="err_name">Please enter your name</string>
+    <string name="err_fname">Please enter your first name</string>
+    <string name="err_lname">Please enter your last name</string>
+    <string name="err_mobil">Please enter your phone number</string>
+    <string name="err_old_pwd">Please enter your old password</string>
+    <string name="err_new_pwd">Please enter your new password</string>
+    <string name="err_invalid_otp">Please enter valid otp code</string>
+    <string name="err_cancel">Failed Transaction, please try again.</string>
+    <string name="err_payment">Your payment failed, please try again after sometime.</string>
+    <string name="err_cate">Please select category</string>
+    <string name="err_image">Please select image or video</string>
+    <string name="err_titl">Please select title</string>
+    <string name="err_titl1">Title require minimum 3 characters !</string>
+    <string name="err_price">Please select price</string>
+    <string name="err_desc">Please select description</string>
+    <string name="err_loc">Please select location</string>
+    <string name="err_youtub">Please enter valid youtube url</string>
+    <string name="err_enter">Please enter </string>
+    <string name="err_select">Please select </string>
+    <string name="err_ad_owner">You are owner of this ad.</string>
+    <string name="err_no_usr">You are not able to chat with this user.</string>
+    <string name="err_web">Please enter valid website.</string>
+    <string name="err_fb">Please enter valid facebook URL.</string>
+    <string name="err_google">Please enter valid google URL.</string>
+    <string name="err_insta">Please enter valid instagram URL.</string>
+    <string name="err_finger">Your Touch ID not registered with our system.</string>
+    <string name="err_del_ad">Ad Deleted.</string>
+    <string name="err_expir_ad">Ad Expired.</string>
+    <string name="err_govern">Please select first governorate.</string>
+    <string name="err_city">Please select first city.</string>
+    <string name="err_block">Please select block.</string>
+    <string name="err_startdate">Please select start date</string>
+    <string name="err_endate">Please select end date</string>
+    <string name="err_date_compare">Please select  end date after start date</string>
+
+    <string name="want_added">Ads added in want list.</string>
+    <string name="want_remove">Ads removed in want list.</string>
+    <string name="paym_success">Payment successfully done.</string>
+    <string name="ads_rem_success">The ad has been deleted successfully.</string>
+    <string name="ads_update_success">Ad updated successfully.</string>
+    <string name="profile_update_success">Profile updated successfully.</string>
+    <string name="pwd_success">Password successfully changed.</string>
+    <string name="pwd_fail">Old password does not match.</string>
+    <string name="done_forgot">Please check your registered email inbox, we have sent you a link to reset your password.</string>
+    <string name="otp_verify">Please type the verification code sent to</string>
+    <string name="subscr_credit">You don\'t have ad\'s credit, would you like to purchase a plan ?</string>
+
+    <string name="menu_title_1">Home</string>
+    <string name="menu_title_2">Categories</string>
+    <string name="menu_title_3">Offers and packages</string>
+    <string name="menu_title_4">Single services</string>
+    <string name="menu_title_5">Contact us</string>
+    <string name="menu_title_6">Settings</string>
+    <string name="menu_title_7">My account</string>
+    <string name="menu_title_8">Share the App</string>
+    <string name="menu_title_9">My favorites</string>
+    <string name="menu_title_10">My Wishlist</string>
+    <string name="menu_title_11">Subscription</string>
+    <string name="menu_title_12">Transaction</string>
+    <string name="menu_title_13">Advertise with us</string>
+    <string name="menu_title_14">Notifications</string>
+    <string name="menu_title_15">Log out</string>
+    <string name="menu_title_16">About Us</string>
+    <string name="menu_title_17">Terms Condition</string>
+    <string name="menu_title_18">Privacy Policy</string>
+    <string name="menu_title_19">Effective Package</string>
+    <string name="menu_title_20">Available Package</string>
+
+    <string name="tab_title_1">All Categories</string>
+    <string name="tab_title_2">Latest ads</string>
+    <string name="tab_title_3">Map</string>
+
+
+    <string name="str_show">Show</string>
+    <string name="str_delted">Deleted</string>
+    <string name="locationdenied">Please turn on GPS to see the distance</string>
+    <string name="str_km_away">km away from your location</string>
+
+    <!-- No record found -->
+    <string name="no_record_found">No record found.</string>
+    <string name="no_rcnt_post">No ads available.</string>
+    <string name="no_rcnt_vw">No recent view post found at the moments.</string>
+    <string name="no_post">No ads available.</string>
+    <string name="no_category">No categories found at the moments.</string>
+    <string name="no_fav">No favorites found at the moments.</string>
+    <string name="no_want">No wanted items found at the moments.</string>
+    <string name="no_my_ads">You don\'t have ads.</string>
+    <string name="no_chat">There is no chat</string>
+    <string name="no_search">No search results found.</string>
+    <string name="no_msg">No messages.</string>
+
+    <string name="str_adver_ci">Contact Information</string>
+    <string name="str_aggree_term">I agree terms and condition</string>
+    <string name="str_share">Share social media</string>
+    <string name="str_acunt_mgnt">Account management</string>
+    <string name="str_chng_pwd">Change Password</string>
+    <string name="str_share_phn">Share Phone Number</string>
+    <string name="str_deactive">Deactive account</string>
+    <string name="str_deactive1">Account Deactivated</string>
+    <string name="str_deactive2">Your account deactivated by you. Do you want to reactivate it again?</string>
+    <string name="str_deactive3">Kindly check your email, to reactivate your account.</string>
+    <string name="str_deactive4">Your account deactivated by the admin.</string>
+    <string name="str_lang_e">English</string>
+    <string name="str_lang_a">عربى</string>
+
+    <string name="str_category">Category</string>
+    <string name="str_rental_prod">Best rental product</string>
+    <string name="str_title">Title</string>
+    <string name="str_price">Price</string>
+    <string name="str_desc">Description</string>
+    <string name="str_youtube">Youtube URL</string>
+    <string name="str_govern">Governorate</string>
+    <string name="str_region">Region</string>
+    <string name="str_village">Neighborhood or village</string>
+    <string name="str_city">City</string>
+    <string name="str_block">Block</string>
+    <string name="str_select_lang">Select Language</string>
+    <string name="str_street">Street</string>
+    <string name="str_jada">Jada</string>
+    <string name="str_post">Post</string>
+    <string name="str_upload_iv">Upload image or video</string>
+    <string name="str_call">Call</string>
+    <string name="str_whatsapp">Whatsapp</string>
+    <string name="str_colon">:</string>
+    <string name="str_model">Model</string>
+    <string name="str_expir_dt">Expiry Date</string>
+    <string name="str_ad_post">Ad posted at %s </string>
+    <string name="str_avail">Available</string>
+    <string name="str_unavail">Unavailable</string>
+    <string name="str_no_of_post">Ads Remaining</string>
+    <string name="str_consume">Consumed</string>
+    <string name="str_kwd">SYP</string>
+    <string name="str_purch_on">Purchase Date</string>
+    <string name="str_expire_on">Expiry Date</string>
+    <string name="str_expire">Expired</string>
+    <string name="str_validity">Validity</string>
+    <string name="str_unlimit">Unlimited</string>
+    <string name="str_ad_activ">Your AD is active NOW !</string>
+    <string name="str_ad_inactiv">Your AD is inactive NOW !</string>
+    <string name="str_ad_id">AD ID : </string>
+    <string name="str_ad_id1">%s</string>
+    <string name="str_ad_edit">EDIT AD</string>
+    <string name="str_pay_meth">Select payment method</string>
+    <string name="str_cler">Clear</string>
+    <string name="str_nw_msg">write Comment....</string>
+    <string name="str_recomode">Recommended Ads for you</string>
+    <string name="str_trans_id">Transaction ID : </string>
+    <string name="str_days">days</string>
+    <string name="str_sms">SMS</string>
+
+    <string name="str_filter1">Discover ad near you (in kms)</string>
+    <string name="str_filter2">Price range</string>
+    <string name="str_filter3">From</string>
+    <string name="str_filter4">To</string>
+    <string name="str_filter5">Apply Filter</string>
+    <string name="str_filter6">Auto</string>
+    <string name="str_filter7">50</string>
+    <string name="str_filter8">100</string>
+    <string name="str_filter9">150</string>
+    <string name="str_filter10">200</string>
+    <string name="str_filter11">250</string>
+
+    <string name="str_sub1">Name</string>
+    <string name="str_sub2">Validity</string>
+    <string name="str_sub3">Number of Post</string>
+    <string name="str_sub4">Price</string>
+    <string name="str_sub5">Remaining Post</string>
+
+    <string name="subject">Download Amazing app from play store : </string>
+    <string name="google_url">https://play.google.com/store/apps/details?id=</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyCWRRao8iXvdbUH8QPOoRGXIfzOeIHwJHw
+    </string>
+
+    <string name="placeid" templateMergeStrategy="preserve" translatable="false">AIzaSyCWRRao8iXvdbUH8QPOoRGXIfzOeIHwJHw</string>
+    <string name="facebook_app_id">732100650643279</string>//732100650643279 392989274849200
+    <string name="fb_login_protocol_scheme">fb732100650643279</string>//fb732100650643279
+    fb732100650643279
+
+    <string name="twitter_key">XGemNQs1t8DrGdBpZMCb9O4lh</string>
+    <string name="twitter_secret_key">uSklzk8jfx5TBrIIxzqJ3Z5gRPqnfEtSLoUiCQ9KdXco9I1BYP</string>
+
+    <string name="client_id">974bd316bfa341ae8ffd37763372e18e</string>
+    <string name="redirect_url">https://ajarblog.algotrick.com/instagramlogin/get_code</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+
+    <string name="ar1">Hide</string>
+    <string name="ar2">Publish</string>
+
+    <string name="location1">Location permission is not granted!</string>
+    <string name="location2">Location not Detected</string>
+    <string name="location3">Set Location</string>
+    <string name="gps_disbale">GPS is disable!</string>
+    <string name="gps_enable">GPS is Enable!</string>
+    <string name="open_location_settings">Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="str_resend">Resend</string>
+    <string name="str_chng">Change</string>
+    <string name="str_publish">Publish</string>
+    <string name="str_upload">Upload Pictures Option</string>
+    <string name="str_video">Video</string>
+    <string name="str_image">Image</string>
+    <string name="str_gallery">Gallery</string>
+    <string name="str_camera">Camera</string>
+    <string name="str_vid_sel">Video select by</string>
+    <string name="str_album">Albums</string>
+
+    <string name="txt_coupon_price">%.2f</string>
+
+    <!-- Toolbar Title Name -->
+    <string name="tit_login">LOGIN</string>
+    <string name="tit_signup">SIGN UP</string>
+    <string name="tit_code_verify">CODE VERIFICATION</string>
+    <string name="tit_home">HOME</string>
+    <string name="tit_forgt">Forgot Password</string>
+    <string name="tit_chat">Chat</string>
+    <string name="tit_profile">PROFILE</string>
+    <string name="tit_edit_profile">Edit Profile</string>
+    <string name="tit_complet_profile">Complete Profile</string>
+    <string name="tit_post_ads">POST AD</string>
+    <string name="tit_edit_ads">EDIT AD</string>
+    <string name="tit_ads">My Ads</string>
+    <string name="tit_suport">Support</string>
+    <string name="tit_setting">Settings</string>
+    <string name="tit_chos_lang">CHOOSE LANGUAGE</string>
+    <string name="tit_filtr">Filter</string>
+    <string name="tit_cate">CATEGORY</string>
+    <string name="tit_chng_pwd">Change Password</string>
+    <string name="tit_post_detail">POST DETAILS</string>
+    <string name="tit_offer_detail">OFFER DETAILS</string>
+    <string name="tit_detail">DETAILS</string>
+    <string name="tit_rcnt_vw">My recent views</string>
+    <string name="tit_my_fav">My Favorites</string>
+    <string name="tit_my_want">My Wishlist</string>
+    <string name="tit_subs">Subscription</string>
+    <string name="tit_trans">Transactions</string>
+    <string name="tit_search">Search</string>
+    <string name="tit_mak_pay">Make Payment</string>
+    <string name="tit_pay">Payment</string>
+    <string name="tit_nop">Number of Posts</string>
+
+    <string name="upload">Upload</string>
+    <string name="video_length_validation">Video should be of minimum 3 seconds</string>
+    <string name="place_error">Please select location inside syria.</string>
+    <string name="fileter_error">Please select distance.</string>
+    <string name="post_add_success1">Congratulations, Your Ad has been published Successfully.</string>
+
+    <string name="title_choose_image_provider">Choose</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="title_gallery">Gallery</string>
+    <string name="title_camera">Camera</string>
+
+    <string name="image_picker_provider_authority_suffix">.provider</string>
+
+    <string name="message_gallery_permission_denied">Read External Storage permissions is needed to select Image. Please turn on requested permissions from Settings > Permissions.</string>
+    <string name="message_camera_permission_denied">Camera and External Storage permissions are needed to capture image. Turning off any permission won\'t allow application run smoothly. Please turn on all requested permissions from Settings > Permissions.</string>
+    <string name="permission_gallery_denied">
+        <![CDATA[Storage permission is needed to pick gallery image. Please allow storage permission from Settings > Permissions.]]></string>
+    <string name="permission_camera_extended_denied">
+        <![CDATA[Camera and Storage permissions are needed to take a picture. Please allow both the requested permissions from Settings > Permissions.]]></string>
+    <string name="permission_camera_denied">
+        <![CDATA[Storage permission is needed to take a picture. Please allow storage permission from Settings > Permissions.]]></string>
+
+    <string name="error_failed_to_create_camera_image_file">Failed to create Camera image file</string>
+    <string name="error_failed_pick_gallery_image">Failed to pick Gallery image</string>
+    <string name="error_failed_to_crop_image">Failed to crop image</string>
+    <string name="error_failed_to_compress_image">Failed to compress image</string>
+    <string name="error_task_cancelled">Task Cancelled</string>
+    <string name="file_provider_authorities">com.swiedamarket.imagepicker.provider.CustomFileProvider</string>
+
+
+    <string name="skip">Skip</string>
+    <string name="menu_home_title_1">Home</string>
+    <string name="menu_home_title_2">Favorites</string>
+    <string name="menu_home_title_3">Post Ads</string>
+    <string name="menu_home_title_4">Profile</string>
+    <string name="menu_home_title_5">More</string>
+    <string name="menu_home_title_6">Category</string>
+    <string name="menu_home_title_7">Recent</string>
+    <string name="menu_home_title_8">Today\'s ads</string>
+    <string name="menu_home_title_9">Near me</string>
+    <string name="menu_home_title_10">Offers</string>
+
+    <string name="menu_more_title_1">My Ads</string>
+    <string name="menu_more_title_2">Advertise with us</string>
+    <string name="menu_more_title_3">Notifications</string>
+    <string name="menu_more_title_4">About Us</string>
+    <string name="menu_more_title_5">Terms and condition</string>
+    <string name="menu_more_title_6">Privacy Policy</string>
+    <string name="menu_more_title_7">Support</string>
+    <string name="menu_more_title_8">Setting</string>
+    <string name="menu_more_title_9">Log out</string>
+
+
+    <string name="str_startdate">Start Date</string>
+    <string name="str_enddate">End Date</string>
+    <string name="err_whatsapp">Whatsapp is not found....</string>
+
+    <string name="str_comment">Comments </string>
+    <string name="err_comment">Please enter comment</string>
+    <string name="err_forgotpassword" tools:ignore="ExtraTranslation">Your mobile number is not registered with our system, please enter valid mobile number</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="str_del_comment_msg">Do you want to delete comment ?</string>
+    <string name="media_note">Adding pictures to your ad can help you sell You can add pictures and video to your ad</string>
+    <string name="str_mobile_label">Enter an active WhatsApp + number without adding a zero before the number</string>
+    <string name="L">L</string>
+    <string name="R">R</string>
+    <string name="hi">Hi</string>
+    <string name="menu_title_5_1">My Ads</string>
+    <string name="tit_del_ads">Delete AD</string>
+    <string name="eventdelete">Your ad is deleted....</string>
+    <string name="label_rememberpassword">Remember Me</string>
+    <string name="passowrd">Password</string>
+    <string name="facebbok_label">Facebook</string>
+    <string name="google_label">Google</string>
+    <string name="loginasguest_label"><u>Continue as Guest</u></string>
+    <string name="login_back">Already have an account?<font fgcolor='#8B67AF'>Login</font></string>
+    <string name="err_accept_term">Please accept term and condition.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+</resources>

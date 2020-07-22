@@ -1,0 +1,7 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icon_badge"
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:padding="5dp"
+    android:src="@drawable/ic_search"
+    android:tint="@color/white" />

@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home_fragment"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_title_1" />
+    <item
+        android:id="@+id/nav_category_fragment"
+        android:icon="@drawable/ic_list_menu"
+        android:title="@string/menu_title_2"></item>
+    <item
+        android:id="@+id/nav_offer_fragment"
+        android:icon="@drawable/ic_gift_menu"
+        android:title="@string/menu_title_3" />
+    <item
+        android:id="@+id/nav_singleservice_fragment"
+        android:icon="@drawable/ic_calendar_menu"
+        android:title="@string/menu_title_4" />
+    <item
+        android:id="@+id/nav_contactus_fragment"
+        android:icon="@drawable/ic_support_menu"
+        android:title="@string/menu_title_5" />
+    <item
+        android:id="@+id/nav_setting_fragment"
+        android:icon="@drawable/ic_phone_menu"
+        android:title="@string/menu_title_6" />
+    <item
+        android:id="@+id/nav_account_fragment"
+        android:icon="@drawable/ic_calendar_menu"
+        android:title="@string/menu_title_7" />
+    <item
+        android:id="@+id/nav_share_fragment"
+        android:icon="@drawable/ic_share_menu"
+        android:title="@string/menu_title_8" />
+
+  </group>
+</menu>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_login_bg"
+        android:scaleType="centerCrop"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+
+        android:src="@drawable/ic_login_header">
+
+    </ImageView>
+    <LinearLayout
+        android:id="@+id/ll_contain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_header"
+        android:background="@color/white"
+        android:padding="30dip"
+        android:layout_marginTop="@dimen/sp_10"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/str_email"
+            android:textColor="@color/black"
+            android:layout_marginTop="@dimen/sp_10"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/textbox"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/sp_10"
+            android:layout_height="wrap_content"
+            android:text="@string/passowrd"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/textbox"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            />
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip">
+            <androidx.appcompat.widget.AppCompatCheckBox
+                android:id="@+id/ck_remember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/label_rememberpassword" />
+            <TextView
+                android:id="@+id/tv_forgotpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="@string/str_forgot"
+                android:textColor="@color/black"
+                />
+        </FrameLayout>
+
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="150dip"
+            android:layout_height="35dp"
+            android:layout_marginTop="15dip"
+            android:layout_gravity="center"
+            android:background="@drawable/btn_square"
+            android:textColor="@color/white"
+            android:text="@string/str_login"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_sign_up_here1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/sp_20"
+            android:layout_gravity="center"
+            />
+
+
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rl_social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="30dip"
+        android:layout_marginRight="30dip"
+        android:gravity="center"
+        android:layout_below="@+id/ll_contain">
+        <LinearLayout
+            android:layout_width="110dp"
+            android:id="@+id/ll_facebook"
+            android:background="@drawable/btn_square_white"
+            android:layout_height="35dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/sp_15"
+                android:layout_height="@dimen/sp_16"
+                android:layout_marginLeft="@dimen/sp_15"
+                android:layout_marginTop="@dimen/sp_10"
+                android:background="@drawable/ic_facebook">
+
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="9dp"
+                android:text="Facebook">
+
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="110dp"
+            android:id="@+id/ll_google"
+            android:background="@drawable/btn_square_white"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/googleg_standard_color_18"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="10dp">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="9dp"
+                android:text="Google">
+
+            </TextView>
+        </LinearLayout>
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_asguest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginasguest_label"
+        android:layout_below="@id/rl_social"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginTop="20dip">
+
+    </TextView>
+</RelativeLayout>
+

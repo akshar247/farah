@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#A7DEF3</color>
+    <color name="colorPrimaryDark">#6FC9EB</color>
+    <color name="colorAccent">#6FC9EB</color>
+
+    <color name="accent_trans_bg" tools:ignore="MissingDefaultResource">#22ec0834</color>
+    <color name="main_bg">#FAFAFA</color>
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+    <color name="grey">#dfdfdf</color>
+    <color name="red">#ec0834</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="green">#0F6533</color>
+    <color name="lightGreen">#19BD00</color>
+
+    <color name="white_80">#8cFFFFFF</color>
+    <color name="black_80">#8c000000</color>
+    <color name="textColorPrimary">#ff333333</color>
+    <color name="textColorSecondary">#ff757575</color>
+    <color name="transparent">#00000000</color>
+    <color name="divider">#424242</color>
+
+    <color name="addresstype_bg2">#919191</color>
+    <color name="actionbar_opacity">#33000000</color>
+    <!-- Drawer Menu -->
+    <color name="drawer_item_checked">@color/colorPrimary</color>
+    <color name="drawer_item_default">@color/white</color>
+
+    <color name="color_gray_alpha">#65b7b7b7</color>
+    <color name="app_blue">#0e1f2f</color>
+    <color name="text_color">#000000</color>
+    <color name="seekbar_color">#3be3e3</color>
+    <color name="line_color">#FF15FF00</color>
+    <color name="shadow_color">#00000000</color>
+
+    <color name="dialog_choose_icon_color">#757575</color>
+    <color name="dialog_choose_text_color">#757575</color>
+
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    <color name="login1">#8B67AF</color>
+    <color name="login2">#6FCAE9</color>
+    <color name="header1">#81DAE8</color>
+    <color name="header2">#6FC9EB</color>
+    <color name="profile">#B5E51D</color>
+    <color name="cat_bg">#05A9F2</color>
+    <color name="offere_txt">#6FC9E9</color>
+    <color name="offere_txt1">#ACACAC</color>
+    <color name="offere_txt2">#E3E3E3</color>
+    <color name="right_arrow">#307DD0</color>
+</resources>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_login_bg"
+        android:scaleType="centerCrop"
+        >
+
+    </ImageView>
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="200dip"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dip"
+
+        android:src="@drawable/ic_login_header">
+
+    </ImageView>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dip"
+        android:layout_below="@+id/iv_header"
+        android:layout_marginTop="@dimen/sp_10"
+        android:layout_marginLeft="30dip"
+        android:background="@color/white"
+        android:layout_marginRight="30dip">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_header"
+
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_fname"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/sp_10"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="text"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_lname"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/sp_10"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="text"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_email"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/sp_10"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_mobil"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/sp_10"
+                >
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="numberDecimal"
+                android:maxEms="13"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/sp_10"
+                android:layout_height="wrap_content"
+                android:text="@string/passowrd"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="@dimen/sp_10"
+                android:layout_height="wrap_content"
+                android:text="@string/str_conf_pwd"
+                android:textColor="@color/black"
+                >
+
+            </TextView>
+            <EditText
+                android:id="@+id/et_confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/textbox"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:imeOptions="actionDone"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip">
+                <androidx.appcompat.widget.AppCompatCheckBox
+                    android:id="@+id/ck_term_condition"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="@string/str_aggree_term" />
+
+            </FrameLayout>
+
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="150dip"
+                android:layout_height="35dp"
+                android:layout_marginTop="15dip"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_square"
+                android:textColor="@color/white"
+                android:text="@string/tit_signup"
+                android:textSize="13sp" />
+
+
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/login_back"
+                android:layout_below="@id/rl_social"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginTop="20dip">
+
+            </TextView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</RelativeLayout>
+
